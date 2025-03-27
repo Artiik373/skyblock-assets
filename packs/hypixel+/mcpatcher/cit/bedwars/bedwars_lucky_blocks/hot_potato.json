@@ -1,0 +1,7 @@
+{
+	"parent": "item/hplus_generated",
+	"textures": {
+		"layer0": "blocks/fire_layer_0",
+		"layer1": "items/potato"
+	}
+}

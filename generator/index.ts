@@ -619,13 +619,9 @@ async function main() {
 	await makeDir('textures')
 	await makeDir('matchers')
 
-	await addPack('ectoplasm')
-	await addPack('furfsky')
 	await addPack('furfsky_reborn')
 	await addPack('hypixel+')
-	await addPack('packshq')
 	await addPack('rnbw')
-	await addPack('worlds_and_beyond')
 
 	await addPack('vanilla')
 }

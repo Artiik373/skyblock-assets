@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "optifine/cit/potions/blank",
+        "layer0": "mcpatcher/cit/potions/normal/blank",
         "layer1": "mcpatcher/cit/potions/normal/spelunker_potion"
     },
     "display": {

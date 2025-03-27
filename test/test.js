@@ -4,7 +4,7 @@ const path = require('path')
 const fs = require('fs')
 
 const vanilla = require('../matchers/vanilla.json')
-const packshq = require('../matchers/packshq.json')
+const hypixelplus = require('../matchers/hypixel+.json')
 const furfsky_reborn = require('../matchers/furfsky_reborn.json')
 
 function assertIsPack(textureUrl, packName) {
@@ -94,7 +94,7 @@ describe('skyblock-assets', () => {
             assert.notStrictEqual(itemTextureUrl, skyblockAssets.baseUrl + '/renders/vanilla/error.png')
         })
 
-        it('Check SkyBlock menu on PacksHQ', () => {
+        it('Check SkyBlock menu on Hypixel+', () => {
             const itemTextureUrl = skyblockAssets.getTextureUrl({
                 id: 'minecraft:nether_star',
                 nbt: {
@@ -105,9 +105,9 @@ describe('skyblock-assets', () => {
                         Name: 'SkyBlock Menu (Right Click)'
                     }
                 },
-                packs: [ packshq, vanilla ],
+                packs: [ hypixelplus, vanilla ],
             })
-            assertIsPack(itemTextureUrl, 'packshq')
+            assertIsPack(itemTextureUrl, 'hypixel+')
         })
 
         it('Check SkyBlock menu on Furfsky Reborn', () => {
@@ -126,7 +126,7 @@ describe('skyblock-assets', () => {
             assertIsPack(itemTextureUrl, 'furfsky_reborn')
         })
 
-        it('Check AOTD on PacksHQ', () => {
+        it('Check AOTD on Hypixel+', () => {
             const itemTextureUrl = skyblockAssets.getTextureUrl({
                 id: 'minecraft:diamond_sword',
                 nbt: {
@@ -137,10 +137,10 @@ describe('skyblock-assets', () => {
                         Name: 'Legendary Aspect of the Dragons'
                     }
                 },
-                packs: [ packshq, vanilla ],
+                packs: [ hypixelplus, vanilla ],
             })
 
-            assertIsPack(itemTextureUrl, 'packshq')
+            assertIsPack(itemTextureUrl, 'hypixel+')
         })
 
         it('Check Titanium Drill DR x555 on FurfSky Reborn', () => {

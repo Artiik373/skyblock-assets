@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/misc_items/dwarven_mines/enchanted_titanium.png"
+        "layer0": "mcpatcher/cit/misc_items/dwarven_mines/raw_titanium.png"
     },
     "display": {
         "thirdperson": {

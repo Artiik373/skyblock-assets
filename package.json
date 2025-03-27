@@ -16,21 +16,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skyblockstats/skyblock-assets.git"
+    "url": "git+https://github.com/artiik373/skyblock-assets.git"
   },
   "author": "mat-1",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/skyblockstats/skyblock-assets/issues"
+    "url": "https://github.com/artiik373/skyblock-assets/issues"
   },
-  "homepage": "https://github.com/skyblockstats/skyblock-assets#readme",
+  "homepage": "https://github.com/artiik373/skyblock-assets#readme",
   "devDependencies": {
     "@types/mocha": "^8.2.2",
     "@types/node": "^16.10.2",
-    "canvas": "^2.7.0",
     "crc": "^3.8.0",
     "mocha": "^9.1.2",
     "ts-node": "^10.5.0",
     "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "canvas": "^3.1.0"
   }
 }

@@ -9,7 +9,7 @@ To generate and optimize the texture packs, run `npm run generate`. This require
 First, import the packs that you want to use.
 ```ts
 import vanilla from 'skyblock-assets/matchers/vanilla.json'
-import packshq from 'skyblock-assets/matchers/packshq.json'
+import hypixelplus from 'skyblock-assets/matchers/hypixel+.json'
 ```
 The reason you have to import the packs yourself is so the library uses less memory if you're not using every pack.
 
@@ -25,7 +25,7 @@ const itemTextureUrl = skyblockAssets.getTextureUrl({
 			Name: 'SkyBlock Menu (Right Click)'
 		}
 	},
-	packs: [ packshq, vanilla ],
+	packs: [ hypixelplus, vanilla ],
 })
 ```
 The order in which you provide packs is the order in which they will be searched, so always put vanilla last.
@@ -33,11 +33,7 @@ The order in which you provide packs is the order in which they will be searched
 
 ## Pack versions
 
-[Ectoplasm](https://hypixel.net/threads/2239953) - Completionist's Update\
-[Furfsky Reborn](https://furfsky.net) - v1.5.1\
-[Furfsky](https://hypixel.net/threads/2138599) - v1.7.1\
-[PacksHQ](https://packshq.com) - v13\
-[RNBW](https://hypixel.net/threads/3470904) - v0.7.0\
-[Hypixel+](https://hypixel.net/threads/4174260) - v0.13.0\
-[Worlds and Beyond](https://hypixel.net/threads/3597207) - v1.5
+[Furfsky Reborn](https://furfsky.net) - v1.8\
+[RNBW](https://hypixel.net/threads/3470904) - v0.8.0\
+[Hypixel+](https://hypixel.net/threads/4174260) - v0.20.7\
 
